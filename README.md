@@ -1,0 +1,1 @@
+javascript: var crn = [21907,21901,21943,21917,21971,20308,21953]; var x = document.getElementsB; for (var i = 0; i < crn.length; i++) { x[i].value = Number(crn[i]); x[i].dispatchEvent(new Event("input")); } setTimeout(function() { document.getElementsByTagName("button")[1].click(); setTimeout(function() { document.getElementsByTagName("button")[4].click(); }, t); }, t);
